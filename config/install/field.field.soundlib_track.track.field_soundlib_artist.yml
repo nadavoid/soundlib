@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib_artist.artist
+    - eck.eck_type.soundlib_track.track
+    - field.storage.soundlib_track.field_soundlib_artist
+id: soundlib_track.track.field_soundlib_artist
+field_name: field_soundlib_artist
+entity_type: soundlib_track
+bundle: track
+label: Artist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:soundlib_artist'
+  handler_settings:
+    target_bundles:
+      artist: artist
+    sort:
+      field: field_soundlib_title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

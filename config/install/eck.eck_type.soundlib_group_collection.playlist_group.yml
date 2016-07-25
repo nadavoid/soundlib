@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.soundlib_group_collection
+name: 'Playlist Group'
+type: playlist_group
+description: 'A group of playlists that belong together. Such as all the Beethoven quartets performed by one ensemble, or all Mahler symphonies performed by one orchestra.'

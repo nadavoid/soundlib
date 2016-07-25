@@ -1,0 +1,6 @@
+name: Soundlib
+type: module
+core: 8.x
+dependencies:
+  - eck
+  - field

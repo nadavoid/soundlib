@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib_artist.artist
+    - field.field.soundlib_artist.artist.field_soundlib_title
+id: soundlib_artist.artist.default
+targetEntityType: soundlib_artist
+bundle: artist
+mode: default
+content:
+  field_soundlib_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }

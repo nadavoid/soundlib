@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.soundlib_group_collection
+name: Shelf
+type: shelf
+description: 'Large groups of albums, such as all your rock stuff, or all your classical stuff. Or any sets of albums that you want to keep together.'

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib_artist.artist
+    - field.storage.soundlib_artist.field_soundlib_title
+id: soundlib_artist.artist.field_soundlib_title
+field_name: field_soundlib_title
+entity_type: soundlib_artist
+bundle: artist
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
