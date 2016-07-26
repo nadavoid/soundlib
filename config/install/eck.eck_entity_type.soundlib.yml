@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: soundlib_artist
-label: Artist
+id: soundlib
+label: 'Sound Library Entity'
 created: false
 changed: false
 uid: false

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_entity_type.soundlib_track
+    - eck.eck_entity_type.soundlib
 name: Track
-type: track
+type: soundlib_track
 description: ''

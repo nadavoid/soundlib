@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_entity_type.soundlib_group
+    - eck.eck_entity_type.soundlib
 name: Album
-type: album
+type: soundlib_album
 description: 'Matching a CD or widely available released group of tracks.'

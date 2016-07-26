@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_entity_type.soundlib_group
-name: Artists
-type: artists
+    - eck.eck_entity_type.soundlib
+name: 'Artist Group'
+type: soundlib_artist_group
 description: 'Ad-hoc group of artists, e.g. favorites, or purpose-specific.'

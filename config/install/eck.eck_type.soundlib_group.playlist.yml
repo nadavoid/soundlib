@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  config:
-    - eck.eck_entity_type.soundlib_group
-name: Playlist
-type: playlist
-description: 'Encompasses custom playlists as well as multi-movement and multi-disk pieces.'
