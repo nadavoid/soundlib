@@ -4,5 +4,5 @@ dependencies:
   config:
     - eck.eck_entity_type.soundlib
 name: Album
-type: soundlib_album
+type: album
 description: 'Matching a CD or widely available released group of tracks.'

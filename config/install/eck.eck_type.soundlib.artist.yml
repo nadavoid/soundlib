@@ -3,6 +3,6 @@ status: true
 dependencies:
   config:
     - eck.eck_entity_type.soundlib
-name: Track
-type: soundlib_track
-description: 'An single recorded music or sound.'
+name: Artist
+type: artist
+description: 'Performer, composer, producer, etc.'

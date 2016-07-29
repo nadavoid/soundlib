@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.soundlib.soundlib_track
-    - field.storage.soundlib.field_duration
-id: soundlib.soundlib_track.field_duration
-field_name: field_duration
+    - eck.eck_type.soundlib.track
+    - field.storage.soundlib.field_disc_number
+id: soundlib.track.field_disc_number
+field_name: field_disc_number
 entity_type: soundlib
-bundle: soundlib_track
-label: Duration
+bundle: track
+label: 'Disc Number'
 description: ''
 required: false
 translatable: false

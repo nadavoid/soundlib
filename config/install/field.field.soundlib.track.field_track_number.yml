@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.soundlib.soundlib_track
+    - eck.eck_type.soundlib.track
     - field.storage.soundlib.field_track_number
-id: soundlib.soundlib_track.field_track_number
+id: soundlib.track.field_track_number
 field_name: field_track_number
 entity_type: soundlib
-bundle: soundlib_track
+bundle: track
 label: 'Track Number'
 description: ''
 required: false

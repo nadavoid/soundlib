@@ -4,5 +4,5 @@ dependencies:
   config:
     - eck.eck_entity_type.soundlib
 name: Playlist
-type: soundlib_playlist
+type: playlist
 description: 'A group of playlists and tracks that go well together. Such as all the Beethoven quartets performed by one ensemble, or all Mahler symphonies performed by the same orchestra.'

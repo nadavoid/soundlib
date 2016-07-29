@@ -4,5 +4,5 @@ dependencies:
   config:
     - eck.eck_entity_type.soundlib
 name: Shelf
-type: soundlib_shelf
+type: shelf
 description: 'Large groups of albums, such as all your rock stuff, or all your classical stuff. Or any sets of albums that you want to keep together.'
