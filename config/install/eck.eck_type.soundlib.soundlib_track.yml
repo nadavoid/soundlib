@@ -5,4 +5,4 @@ dependencies:
     - eck.eck_entity_type.soundlib
 name: Track
 type: soundlib_track
-description: ''
+description: 'An single recorded music or sound.'

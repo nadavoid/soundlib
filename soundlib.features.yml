@@ -1,18 +1,1 @@
-excluded:
-  - eck.eck_type.soundlib_group.album
-  - eck.eck_type.soundlib_group.artists
-  - eck.eck_type.soundlib_group.playlist
-  - eck.eck_entity_type.soundlib_group
-  - eck.eck_entity_type.soundlib_group_collection
-  - eck.eck_entity_type.soundlib_track
-  - eck.eck_entity_type.soundlib_artist
-  - core.entity_form_display.soundlib_artist.artist.default
-  - core.entity_form_display.soundlib_track.track.default
-  - core.entity_view_display.soundlib_artist.artist.default
-  - core.entity_view_display.soundlib_track.track.default
-  - field.field.soundlib_artist.artist.field_soundlib_title
-  - field.field.soundlib_track.track.field_soundlib_artist
-  - field.storage.soundlib_artist.field_soundlib_title
-  - field.storage.soundlib_track.field_soundlib_artist
-  - eck.eck_type.soundlib_artist.artist
 required: true

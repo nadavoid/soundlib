@@ -5,4 +5,4 @@ dependencies:
     - eck.eck_entity_type.soundlib
 name: Playlist
 type: soundlib_playlist
-description: 'Custom playlists of tracks, multi-movement and multi-disk pieces.'
+description: 'A group of playlists and tracks that go well together. Such as all the Beethoven quartets performed by one ensemble, or all Mahler symphonies performed by the same orchestra.'
