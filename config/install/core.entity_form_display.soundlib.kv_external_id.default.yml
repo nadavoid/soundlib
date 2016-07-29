@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.kv_external_id
+    - field.field.soundlib.kv_external_id.field_kv_id
+    - field.field.soundlib.kv_external_id.field_kv_key
+id: soundlib.kv_external_id.default
+targetEntityType: soundlib
+bundle: kv_external_id
+mode: default
+content:
+  field_kv_id:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_kv_key:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }

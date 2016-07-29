@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.kv_external_id
+    - eck.eck_type.soundlib.track
+    - field.storage.soundlib.field_external_id
+id: soundlib.track.field_external_id
+field_name: field_external_id
+entity_type: soundlib
+bundle: track
+label: 'External ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:soundlib'
+  handler_settings:
+    target_bundles:
+      kv_external_id: kv_external_id
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
