@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.soundlib_track
+    - field.storage.soundlib.field_name
+id: soundlib.soundlib_track.field_name
+field_name: field_name
+entity_type: soundlib
+bundle: soundlib_track
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
