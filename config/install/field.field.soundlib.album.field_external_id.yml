@@ -2,17 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
+    - eck.eck_type.soundlib.album
     - eck.eck_type.soundlib.external_id
-    - eck.eck_type.soundlib.track
     - field.storage.soundlib.field_external_id
-id: soundlib.track.field_external_id
+id: soundlib.album.field_external_id
 field_name: field_external_id
 entity_type: soundlib
-bundle: track
+bundle: album
 label: 'External IDs'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

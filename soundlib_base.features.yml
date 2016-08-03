@@ -1,0 +1,11 @@
+bundle: soundlib
+excluded:
+  - core.entity_form_display.soundlib.track.default
+  - core.entity_form_display.soundlib.album.default
+  - core.entity_form_display.soundlib.external_id.default
+  - core.entity_form_display.soundlib.soundlib_genre.default
+  - core.entity_view_display.soundlib.track.default
+  - core.entity_view_display.soundlib.album.default
+  - core.entity_view_display.soundlib.external_id.default
+  - core.entity_view_display.soundlib.soundlib_genre.default
+required: true

@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.soundlib.kv_external_id
-    - field.storage.soundlib.field_kv_id
-id: soundlib.kv_external_id.field_kv_id
-field_name: field_kv_id
+    - eck.eck_type.soundlib.external_id
+    - field.storage.soundlib.field_id
+id: soundlib.external_id.field_id
+field_name: field_id
 entity_type: soundlib
-bundle: kv_external_id
+bundle: external_id
 label: ID
 description: ''
 required: false

@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.soundlib.track
+    - eck.eck_type.soundlib.album
     - field.storage.soundlib.field_external_url
   module:
     - link
-id: soundlib.track.field_external_url
+id: soundlib.album.field_external_url
 field_name: field_external_url
 entity_type: soundlib
-bundle: track
+bundle: album
 label: 'External URLs'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

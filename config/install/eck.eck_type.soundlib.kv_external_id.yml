@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  config:
-    - eck.eck_entity_type.soundlib
-name: 'KV External ID'
-type: kv_external_id
-description: 'Key Value pair of External IDs.'

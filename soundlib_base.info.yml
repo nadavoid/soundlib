@@ -1,7 +1,9 @@
-name: Soundlib
+name: 'Soundlib Base'
 type: module
 core: 8.x
 dependencies:
+  - datetime
   - eck
   - field
   - link
+package: Soundlib

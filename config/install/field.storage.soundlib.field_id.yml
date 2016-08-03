@@ -3,12 +3,12 @@ status: true
 dependencies:
   module:
     - eck
-id: soundlib.field_kv_key
-field_name: field_kv_key
+id: soundlib.field_id
+field_name: field_id
 entity_type: soundlib
 type: string
 settings:
-  max_length: 255
+  max_length: 1000
   is_ascii: false
   case_sensitive: false
 module: core

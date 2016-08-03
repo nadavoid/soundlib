@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.soundlib
+name: Genre
+type: soundlib_genre
+description: 'Music genre. Classical, rock, electronic, etc.'

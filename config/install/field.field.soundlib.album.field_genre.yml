@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.soundlib.external_id
-    - eck.eck_type.soundlib.track
-    - field.storage.soundlib.field_external_id
-id: soundlib.track.field_external_id
-field_name: field_external_id
+    - eck.eck_type.soundlib.album
+    - eck.eck_type.soundlib.soundlib_genre
+    - field.storage.soundlib.field_genre
+id: soundlib.album.field_genre
+field_name: field_genre
 entity_type: soundlib
-bundle: track
-label: 'External IDs'
+bundle: album
+label: Genres
 description: ''
 required: false
 translatable: false
@@ -19,7 +19,7 @@ settings:
   handler: 'default:soundlib'
   handler_settings:
     target_bundles:
-      external_id: external_id
+      soundlib_genre: soundlib_genre
     sort:
       field: _none
     auto_create: false
