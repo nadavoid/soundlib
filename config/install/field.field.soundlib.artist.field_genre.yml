@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.artist
+    - eck.eck_type.soundlib.soundlib_genre
+    - field.storage.soundlib.field_genre
+id: soundlib.artist.field_genre
+field_name: field_genre
+entity_type: soundlib
+bundle: artist
+label: Genres
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:soundlib'
+  handler_settings:
+    target_bundles:
+      soundlib_genre: soundlib_genre
+    sort:
+      field: field_name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
