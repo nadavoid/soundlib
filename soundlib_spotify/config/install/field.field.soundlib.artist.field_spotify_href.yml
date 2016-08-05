@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.artist
+    - field.storage.soundlib.field_spotify_href
+  module:
+    - link
+id: soundlib.artist.field_spotify_href
+field_name: field_spotify_href
+entity_type: soundlib
+bundle: artist
+label: 'Spotify href'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

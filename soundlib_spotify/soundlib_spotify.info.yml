@@ -1,10 +1,11 @@
-name: 'Soundlib Base'
+name: 'Soundlib Spotify'
 type: module
 core: 8.x
 dependencies:
   - datetime
   - eck
-  - features
   - field
   - link
+  - options
+  - soundlib
 package: Soundlib

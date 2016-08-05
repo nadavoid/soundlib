@@ -1,0 +1,5 @@
+bundle: soundlib
+excluded:
+  - field.field.soundlib.artist.field_artist_type
+  - field.storage.soundlib.field_artist_type
+required: true

@@ -1,0 +1,88 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.artist
+    - field.field.soundlib.artist.field_artist_type
+    - field.field.soundlib.artist.field_external_url
+    - field.field.soundlib.artist.field_genre
+    - field.field.soundlib.artist.field_name
+    - field.field.soundlib.artist.field_spotify_href
+    - field.field.soundlib.artist.field_spotify_id
+    - field.field.soundlib.artist.field_spotify_image
+    - field.field.soundlib.artist.field_spotify_name
+    - field.field.soundlib.artist.field_spotify_uri
+  module:
+    - link
+id: soundlib.artist.default
+targetEntityType: soundlib
+bundle: artist
+mode: default
+content:
+  field_artist_type:
+    weight: 11
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_external_url:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_genre:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_name:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_spotify_href:
+    weight: 5
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_spotify_id:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_spotify_image:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_spotify_name:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_spotify_uri:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }

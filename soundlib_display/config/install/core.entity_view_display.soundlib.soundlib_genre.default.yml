@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.soundlib_genre
+    - field.field.soundlib.soundlib_genre.field_name
+id: soundlib.soundlib_genre.default
+targetEntityType: soundlib
+bundle: soundlib_genre
+mode: default
+content:
+  field_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  id: true
+  langcode: true

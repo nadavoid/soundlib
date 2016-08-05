@@ -1,0 +1,9 @@
+bundle: soundlib
+excluded:
+  - core.entity_form_display.soundlib.track.default
+  - core.entity_form_display.soundlib.artist.default
+  - core.entity_view_display.soundlib.track.default
+  - core.entity_view_display.soundlib.artist.default
+  - field.storage.soundlib.field_height_px
+  - field.storage.soundlib.field_width_px
+required: true

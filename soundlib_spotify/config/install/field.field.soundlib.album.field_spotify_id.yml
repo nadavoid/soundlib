@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.album
+    - field.storage.soundlib.field_spotify_id
+id: soundlib.album.field_spotify_id
+field_name: field_spotify_id
+entity_type: soundlib
+bundle: album
+label: 'Spotify ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

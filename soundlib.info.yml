@@ -1,0 +1,10 @@
+name: 'Soundlib'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - eck
+  - features
+  - field
+  - link
+package: Soundlib

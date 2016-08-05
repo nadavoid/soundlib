@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.track
+    - field.field.soundlib.track.field_artist
+    - field.field.soundlib.track.field_disc_number
+    - field.field.soundlib.track.field_duration
+    - field.field.soundlib.track.field_external_id
+    - field.field.soundlib.track.field_external_url
+    - field.field.soundlib.track.field_name
+    - field.field.soundlib.track.field_spotify_href
+    - field.field.soundlib.track.field_spotify_id
+    - field.field.soundlib.track.field_spotify_name
+    - field.field.soundlib.track.field_spotify_preview_url
+    - field.field.soundlib.track.field_spotify_uri
+    - field.field.soundlib.track.field_track_number
+id: soundlib.track.default
+targetEntityType: soundlib
+bundle: track
+mode: default
+content:
+  field_name:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_artist: true
+  field_disc_number: true
+  field_duration: true
+  field_external_id: true
+  field_external_url: true
+  field_spotify_href: true
+  field_spotify_id: true
+  field_spotify_name: true
+  field_spotify_preview_url: true
+  field_spotify_uri: true
+  field_track_number: true
+  id: true
+  langcode: true

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.spotify_image
+    - field.storage.soundlib.field_width_px
+id: soundlib.spotify_image.field_width_px
+field_name: field_width_px
+entity_type: soundlib
+bundle: spotify_image
+label: Width
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

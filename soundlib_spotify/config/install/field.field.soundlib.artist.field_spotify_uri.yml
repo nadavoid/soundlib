@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.artist
+    - field.storage.soundlib.field_spotify_uri
+id: soundlib.artist.field_spotify_uri
+field_name: field_spotify_uri
+entity_type: soundlib
+bundle: artist
+label: 'Spotify URI'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

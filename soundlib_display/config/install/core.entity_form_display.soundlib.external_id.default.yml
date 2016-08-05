@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.external_id
+    - field.field.soundlib.external_id.field_id
+    - field.field.soundlib.external_id.field_name
+id: soundlib.external_id.default
+targetEntityType: soundlib
+bundle: external_id
+mode: default
+content:
+  field_id:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_name:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }

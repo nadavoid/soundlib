@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.spotify_image
+    - field.field.soundlib.spotify_image.field_height_px
+    - field.field.soundlib.spotify_image.field_spotify_href
+    - field.field.soundlib.spotify_image.field_width_px
+  module:
+    - link
+id: soundlib.spotify_image.default
+targetEntityType: soundlib
+bundle: spotify_image
+mode: default
+content:
+  field_height_px:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_spotify_href:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_width_px:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+hidden:
+  id: true
+  langcode: true

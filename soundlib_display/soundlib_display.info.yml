@@ -1,0 +1,14 @@
+name: 'Soundlib Display'
+description: 'Form and View displays. To be edited or replaced as other soundlib features add more fields.'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - eck
+  - field
+  - inline_entity_form
+  - link
+  - options
+  - soundlib
+  - soundlib_spotify
+package: Soundlib

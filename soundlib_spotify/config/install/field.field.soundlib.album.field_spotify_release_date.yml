@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.album
+    - field.storage.soundlib.field_spotify_release_date
+  module:
+    - datetime
+id: soundlib.album.field_spotify_release_date
+field_name: field_spotify_release_date
+entity_type: soundlib
+bundle: album
+label: 'Spotify Release Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

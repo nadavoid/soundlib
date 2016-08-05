@@ -1,0 +1,130 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.soundlib.album
+    - field.field.soundlib.album.field_external_id
+    - field.field.soundlib.album.field_external_url
+    - field.field.soundlib.album.field_genre
+    - field.field.soundlib.album.field_name
+    - field.field.soundlib.album.field_release_date
+    - field.field.soundlib.album.field_spotify_href
+    - field.field.soundlib.album.field_spotify_id
+    - field.field.soundlib.album.field_spotify_image
+    - field.field.soundlib.album.field_spotify_name
+    - field.field.soundlib.album.field_spotify_rel_date_precision
+    - field.field.soundlib.album.field_spotify_release_date
+    - field.field.soundlib.album.field_spotify_uri
+    - field.field.soundlib.album.field_track
+  module:
+    - datetime
+    - link
+    - options
+id: soundlib.album.default
+targetEntityType: soundlib
+bundle: album
+mode: default
+content:
+  field_external_id:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_external_url:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_genre:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_name:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_release_date:
+    weight: 4
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_spotify_href:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_spotify_id:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_spotify_image:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_spotify_name:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_spotify_rel_date_precision:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_spotify_release_date:
+    weight: 9
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_spotify_uri:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_track:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden:
+  id: true
+  langcode: true
