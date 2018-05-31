@@ -1,9 +1,12 @@
+uuid: caa42696-34d7-4c6d-a705-e6cb83337db0
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_type.soundlib.artist
     - field.storage.soundlib.field_spotify_name
+_core:
+  default_config_hash: dgxYqfZtLLIj6qJMyy9Vh_c8wfHj0LiTt_rU5_kRdj4
 id: soundlib.artist.field_spotify_name
 field_name: field_spotify_name
 entity_type: soundlib

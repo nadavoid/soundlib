@@ -1,8 +1,11 @@
+uuid: 76aa8bcc-ace6-4a03-8244-acaf578c008e
 langcode: en
 status: true
 dependencies:
   module:
     - eck
+_core:
+  default_config_hash: nlhR4VsNxcaDNWfkBfPh-wtkCMfsHQQda2ZyL6zUKWo
 id: soundlib.field_spotify_uri
 field_name: field_spotify_uri
 entity_type: soundlib

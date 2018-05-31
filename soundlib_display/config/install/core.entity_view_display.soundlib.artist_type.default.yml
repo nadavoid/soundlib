@@ -1,9 +1,12 @@
+uuid: c5b06108-7eae-4b8d-8a75-f7c4fcbe7465
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_type.soundlib.artist_type
     - field.field.soundlib.artist_type.field_name
+_core:
+  default_config_hash: rKVAmW9xEpbdmtD6-lOyF5_h5XSjJsiQc5fAr57STaQ
 id: soundlib.artist_type.default
 targetEntityType: soundlib
 bundle: artist_type
@@ -16,6 +19,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
 hidden:
   id: true
-  langcode: true

@@ -1,3 +1,4 @@
+uuid: faf1e789-462f-4ad2-b022-28f6b34a7fa5
 langcode: en
 status: true
 dependencies:
@@ -14,6 +15,8 @@ dependencies:
     - field.field.soundlib.artist.field_spotify_uri
   module:
     - link
+_core:
+  default_config_hash: hgj_ERKl0Q4kqatP5ivZdzhmJE2JxokNNUWoRKCQYyo
 id: soundlib.artist.default
 targetEntityType: soundlib
 bundle: artist
@@ -27,6 +30,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_external_url:
     weight: 3
     settings:
@@ -34,6 +38,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_genre:
     weight: 4
     settings:
@@ -42,6 +47,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_name:
     weight: 9
     settings:
@@ -49,6 +55,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_spotify_href:
     weight: 5
     settings:
@@ -56,6 +63,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_spotify_id:
     weight: 6
     settings:
@@ -63,6 +71,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_spotify_image:
     weight: 7
     settings:
@@ -71,6 +80,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_spotify_name:
     weight: 8
     settings:
@@ -78,6 +88,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_spotify_uri:
     weight: 10
     settings:
@@ -85,4 +96,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
 hidden: {  }

@@ -1,9 +1,12 @@
+uuid: 8c50856e-b286-4cb1-aeff-18f2f81e994c
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_type.soundlib.spotify_image
     - field.storage.soundlib.field_height_px
+_core:
+  default_config_hash: B4Hh5eFzdi5ZJFWB2_BVvFd5Houd1oTHi9FZ8156KcI
 id: soundlib.spotify_image.field_height_px
 field_name: field_height_px
 entity_type: soundlib

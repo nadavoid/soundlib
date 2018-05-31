@@ -1,8 +1,11 @@
+uuid: 56265663-ea42-4c2d-b7ac-be99ac5fa91c
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_entity_type.soundlib
+_core:
+  default_config_hash: ERX9EDpkHXTaUTm4EusXbNI8jgaFHAfPmHkNOogBF2k
 name: 'Spotify Image'
 type: spotify_image
 description: 'URL, width, and height of an image on Spotify'

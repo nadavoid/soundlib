@@ -1,9 +1,12 @@
+uuid: 7070fcbc-b79a-4935-8432-d346224d1466
 langcode: en
 status: true
 dependencies:
   module:
     - eck
     - link
+_core:
+  default_config_hash: H9ISyyF2Km-WYStPkPdT1RgejaZHUalU6uMFReERdBE
 id: soundlib.field_spotify_preview_url
 field_name: field_spotify_preview_url
 entity_type: soundlib

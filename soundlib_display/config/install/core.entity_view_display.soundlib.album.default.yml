@@ -1,3 +1,4 @@
+uuid: 93c48a82-fd23-474e-b792-7388ad83de7b
 langcode: en
 status: true
 dependencies:
@@ -20,6 +21,8 @@ dependencies:
     - datetime
     - link
     - options
+_core:
+  default_config_hash: mk0zAaqVZR6sdOc8n89BqW4bjl4rTiTEvIkS0kz37FU
 id: soundlib.album.default
 targetEntityType: soundlib
 bundle: album
@@ -32,6 +35,7 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
   field_external_url:
     weight: 1
     label: above
@@ -43,6 +47,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_genre:
     weight: 2
     label: above
@@ -50,6 +55,7 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
   field_name:
     weight: 3
     label: above
@@ -57,6 +63,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_release_date:
     weight: 4
     label: above
@@ -65,6 +72,7 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_spotify_href:
     weight: 6
     label: above
@@ -76,6 +84,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_spotify_id:
     weight: 7
     label: above
@@ -83,6 +92,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_spotify_image:
     weight: 12
     label: above
@@ -90,6 +100,7 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
   field_spotify_name:
     weight: 8
     label: above
@@ -97,12 +108,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_spotify_rel_date_precision:
     weight: 10
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
   field_spotify_release_date:
     weight: 9
     label: above
@@ -111,6 +124,7 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_spotify_uri:
     weight: 11
     label: above
@@ -118,6 +132,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_track:
     weight: 5
     label: above
@@ -125,6 +140,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
 hidden:
   id: true
-  langcode: true

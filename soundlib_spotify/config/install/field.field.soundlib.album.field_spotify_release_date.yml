@@ -1,3 +1,4 @@
+uuid: 85199766-861a-4fc1-a732-6fc11cc1c962
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - field.storage.soundlib.field_spotify_release_date
   module:
     - datetime
+_core:
+  default_config_hash: '-lUwPftp4tZAkgM7ICTIY-RmVhKgLUdws5nKhfckUvo'
 id: soundlib.album.field_spotify_release_date
 field_name: field_spotify_release_date
 entity_type: soundlib

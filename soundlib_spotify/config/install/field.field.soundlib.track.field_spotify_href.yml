@@ -1,3 +1,4 @@
+uuid: 039e19fe-20da-4361-93a7-4daf581a025f
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - field.storage.soundlib.field_spotify_href
   module:
     - link
+_core:
+  default_config_hash: dawqMzPPVFWWQYqWD8PssM5g7EEObGvgiPIwIF2Ngr8
 id: soundlib.track.field_spotify_href
 field_name: field_spotify_href
 entity_type: soundlib

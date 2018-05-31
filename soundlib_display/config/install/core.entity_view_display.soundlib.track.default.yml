@@ -1,3 +1,4 @@
+uuid: 57383a7a-bac4-442d-b3ba-549c56a3bbdd
 langcode: en
 status: true
 dependencies:
@@ -15,6 +16,8 @@ dependencies:
     - field.field.soundlib.track.field_spotify_preview_url
     - field.field.soundlib.track.field_spotify_uri
     - field.field.soundlib.track.field_track_number
+_core:
+  default_config_hash: 7QKrHiMDtyTKQWL03vy_iZv5TgPIkJIqW8G7EixSeOs
 id: soundlib.track.default
 targetEntityType: soundlib
 bundle: track
@@ -27,6 +30,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    region: content
 hidden:
   field_artist: true
   field_disc_number: true
@@ -40,4 +44,3 @@ hidden:
   field_spotify_uri: true
   field_track_number: true
   id: true
-  langcode: true

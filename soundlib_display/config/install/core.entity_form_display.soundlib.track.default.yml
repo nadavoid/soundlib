@@ -1,3 +1,4 @@
+uuid: 3d9d4709-21d6-45f6-a24c-4802e6b16eb4
 langcode: en
 status: true
 dependencies:
@@ -17,6 +18,8 @@ dependencies:
     - field.field.soundlib.track.field_track_number
   module:
     - link
+_core:
+  default_config_hash: ztxMA-vyCawR1bQWI8q_OQgghoniEEOHmHR8e4MAv_4
 id: soundlib.track.default
 targetEntityType: soundlib
 bundle: track
@@ -27,18 +30,21 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_disc_number:
     type: number
     weight: 3
     settings:
       placeholder: ''
     third_party_settings: {  }
+    region: content
   field_duration:
     type: number
     weight: 2
     settings:
       placeholder: ''
     third_party_settings: {  }
+    region: content
   field_external_id:
     weight: 6
     settings:
@@ -47,6 +53,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_external_url:
     weight: 5
     settings:
@@ -54,6 +61,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_name:
     type: string_textfield
     weight: 0
@@ -61,12 +69,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
   field_track_number:
     type: number
     weight: 4
     settings:
       placeholder: ''
     third_party_settings: {  }
+    region: content
 hidden:
   field_spotify_href: true
   field_spotify_id: true

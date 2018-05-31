@@ -1,3 +1,4 @@
+uuid: 4db084c7-eacd-4f0a-9aec-f4ed260f0bcb
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - eck.eck_type.soundlib.external_id
     - field.field.soundlib.external_id.field_id
     - field.field.soundlib.external_id.field_name
+_core:
+  default_config_hash: MZfXQIdYi6zbiFDxC0nQ9bXVEc47-q0lS-lfYndoZR8
 id: soundlib.external_id.default
 targetEntityType: soundlib
 bundle: external_id
@@ -17,6 +20,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_name:
     weight: 1
     label: above
@@ -24,6 +28,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
 hidden:
   id: true
-  langcode: true

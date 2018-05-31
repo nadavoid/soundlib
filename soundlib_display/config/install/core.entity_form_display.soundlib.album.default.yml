@@ -1,3 +1,4 @@
+uuid: 4887765f-8933-4361-af7e-b85b85e2ac8b
 langcode: en
 status: true
 dependencies:
@@ -20,6 +21,8 @@ dependencies:
     - datetime
     - inline_entity_form
     - link
+_core:
+  default_config_hash: KmL2qOp4XtjahTFBvb4lUOvj_6CebIrzRPyuAObBny4
 id: soundlib.album.default
 targetEntityType: soundlib
 bundle: album
@@ -37,6 +40,7 @@ content:
       allow_existing: false
     third_party_settings: {  }
     type: inline_entity_form_complex
+    region: content
   field_external_url:
     weight: 4
     settings:
@@ -44,6 +48,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_genre:
     weight: 5
     settings:
@@ -52,6 +57,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_name:
     weight: 6
     settings:
@@ -59,11 +65,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_release_date:
     weight: 7
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_spotify_href:
     weight: 9
     settings:
@@ -71,6 +79,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_spotify_id:
     weight: 10
     settings:
@@ -78,6 +87,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_spotify_image:
     weight: 15
     settings:
@@ -86,6 +96,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
   field_spotify_name:
     weight: 11
     settings:
@@ -93,16 +104,19 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_spotify_rel_date_precision:
     weight: 13
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
   field_spotify_release_date:
     weight: 12
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_spotify_uri:
     weight: 14
     settings:
@@ -110,6 +124,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_track:
     weight: 8
     settings:
@@ -118,4 +133,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
 hidden: {  }

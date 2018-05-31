@@ -1,3 +1,4 @@
+uuid: 856fb51d-d925-4d4c-9e36-b93d94bf67d4
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - eck.eck_type.soundlib.artist
     - eck.eck_type.soundlib.spotify_image
     - field.storage.soundlib.field_spotify_image
+_core:
+  default_config_hash: UGHsm-Px6kfGk4AAIf5nFQKtfYgRLXiYPyUq09BRJYM
 id: soundlib.artist.field_spotify_image
 field_name: field_spotify_image
 entity_type: soundlib

@@ -1,3 +1,4 @@
+uuid: b9215bd8-702e-4b4b-9d00-1c30822eb498
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
     - field.field.soundlib.spotify_image.field_width_px
   module:
     - link
+_core:
+  default_config_hash: 9Fkrp-Qv4j8Pgdoh5eBmJHejtHvJTMi6UZEg6c7Kbsw
 id: soundlib.spotify_image.default
 targetEntityType: soundlib
 bundle: spotify_image
@@ -21,6 +24,7 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
   field_spotify_href:
     weight: 0
     label: above
@@ -32,6 +36,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_width_px:
     weight: 1
     label: above
@@ -40,6 +45,6 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
 hidden:
   id: true
-  langcode: true

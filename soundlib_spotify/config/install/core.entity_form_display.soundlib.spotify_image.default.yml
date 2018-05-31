@@ -1,3 +1,4 @@
+uuid: 88261bb0-89cd-40d8-8bb6-252f13d47d77
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
     - field.field.soundlib.spotify_image.field_width_px
   module:
     - link
+_core:
+  default_config_hash: EFibgHBQU9I_wxnesta5OZQwAWKl3IvYxglQ1rVK84s
 id: soundlib.spotify_image.default
 targetEntityType: soundlib
 bundle: spotify_image
@@ -19,6 +22,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
   field_spotify_href:
     weight: 3
     settings:
@@ -26,10 +30,12 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_width_px:
     weight: 4
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
 hidden: {  }

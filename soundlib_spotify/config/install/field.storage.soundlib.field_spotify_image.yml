@@ -1,8 +1,11 @@
+uuid: 375c3e2a-f337-4bc7-b240-3b7ded311ca8
 langcode: en
 status: true
 dependencies:
   module:
     - eck
+_core:
+  default_config_hash: LsXMJncDVsCHWEb7eHTrKCff8sIzU-XcC35TH4gDORk
 id: soundlib.field_spotify_image
 field_name: field_spotify_image
 entity_type: soundlib

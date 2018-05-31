@@ -1,3 +1,4 @@
+uuid: c9c10202-2d35-4b69-8614-56419568277d
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - field.storage.soundlib.field_spotify_rel_date_precision
   module:
     - options
+_core:
+  default_config_hash: lH1uQoXPO5NrC4G9uY34UcdaHXZ2XQqkJeS9xCSsSd8
 id: soundlib.album.field_spotify_rel_date_precision
 field_name: field_spotify_rel_date_precision
 entity_type: soundlib

@@ -1,9 +1,12 @@
+uuid: 3872f871-3e0c-4e40-8265-2eb315ed14d2
 langcode: en
 status: true
 dependencies:
   module:
     - eck
     - options
+_core:
+  default_config_hash: jZ8Tle5_LrIT5LUATbcSBHyvgb4QeRoigPhkLSnGxVQ
 id: soundlib.field_spotify_rel_date_precision
 field_name: field_spotify_rel_date_precision
 entity_type: soundlib

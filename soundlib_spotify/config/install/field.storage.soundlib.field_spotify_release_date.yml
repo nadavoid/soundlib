@@ -1,9 +1,12 @@
+uuid: d752c7b3-7d68-4200-947f-61531f7267f4
 langcode: en
 status: true
 dependencies:
   module:
     - datetime
     - eck
+_core:
+  default_config_hash: ECuTgk9Y5cU6F3pfSMSukiB7RJQaiSAxuIxCsv2cuSk
 id: soundlib.field_spotify_release_date
 field_name: field_spotify_release_date
 entity_type: soundlib

@@ -1,9 +1,12 @@
+uuid: 6977480f-bd75-42f7-988c-c19971861d3f
 langcode: en
 status: true
 dependencies:
   config:
     - eck.eck_type.soundlib.soundlib_genre
     - field.field.soundlib.soundlib_genre.field_name
+_core:
+  default_config_hash: 0Fkj9dcxtWUEWgMEh3nyLMKhqMPmDmPr-dQBP4AKKbQ
 id: soundlib.soundlib_genre.default
 targetEntityType: soundlib
 bundle: soundlib_genre
@@ -16,4 +19,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
 hidden: {  }
